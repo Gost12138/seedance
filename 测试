@@ -1,0 +1,7 @@
+name: 自动打招呼
+on: push
+jobs:
+  say-hello:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "你好，工作流跑起来了！"
